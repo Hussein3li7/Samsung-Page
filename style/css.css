@@ -590,10 +590,9 @@ font-family: 'samsung-reg';
 
 
 .footer .center-footer{
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
-    width: 46%;
-    display: inline-block;
+    width: 100%;
 }
 
 .footer .center-footer p{
