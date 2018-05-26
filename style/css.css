@@ -530,7 +530,9 @@ font-family: 'samsung-reg';
 	color:  #ffffff;
     font-size: 35px;
     margin: 0 0 10px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    text-align: center;
+	    
 }
 
 .footer h3 span{
