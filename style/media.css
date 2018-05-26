@@ -117,3 +117,13 @@ translate: .3s;
 }
 
 
+@media screen and (max-width:1600px){
+
+    .footer .footer-right {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+}
+
+}
