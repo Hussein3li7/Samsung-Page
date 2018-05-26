@@ -1,0 +1,770 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+@keyframes bo{
+    0%{
+        border-bottom: 2px solid #2980b9;
+    }
+    
+    25%{
+        border-bottom: 2px solid #292c2f;
+    }
+    
+    50%{
+        border-bottom: 2px solid red;
+    }
+    
+    100%{
+        border-bottom: 2px solid blue;
+    }
+    
+
+
+
+}
+
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    border-bottom:1px solid #dadada;
+    background-color: #fff;
+z-index: 999;
+
+}
+.nav-bar ul{
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.7%;
+    font-size: 1vw;
+    position: relative;
+    overflow: hidden;
+
+    }
+.nav-bar ul li{
+        list-style: none;
+        float: right;
+        margin-right: 5px;
+        padding: 10px;
+
+    }
+
+.nav-bar ul .logo{
+    float: left;
+    border-radius: 7px;
+    }
+
+
+    .nav-bar ul li a{
+        color: #2d3436;
+        text-decoration: none;
+        padding: 10px 10px 0 0;
+        border-radius: 3px;
+        font-family: 'compny';
+        font-size: 17px;
+    }
+
+.nav-bar ul li a:hover{
+        /* color: #1a489a;
+        border-bottom:1px solid #1a489a; */
+        animation: bo .5s linear infinite;
+
+    }
+
+    .sam-logo{
+        height: 40px;
+        position: absolute;
+        left: 42%;
+    }
+
+
+    /* End Navigation bar */
+
+
+
+
+     /* srtart fisrt section */
+
+
+.section1{
+    width: 100%;
+    height: 750px;
+overflow: hidden;
+
+}
+
+.section1 .s9-div{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/img-fir-div.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.section1 .s9-div .container{
+    width: 70%;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+}
+
+.section1 .s9-div .container .div2-con-grid{
+    justify-self: center;
+    padding-top: 150px;
+}
+
+
+.section1 .s9-div .container p{
+    color: #2d3436;
+    margin-top: 100px;
+    font-size: 72px;
+    font-family: 'Samsung';
+    margin-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.section1 .s9-div .container h4{
+    font-size: 24px;
+    font-family: 'Samsung';
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.section1 .s9-div .container a{
+    padding: 12px 25px 7px 25px;
+background: white;
+border: 1px solid black;
+border-radius: 20px;
+color: #000;
+text-decoration: none;
+ 
+font-family: 'compny';
+transition: 0.4s;
+}
+
+.section1 .s9-div .container a:hover{
+
+    background-color: #2d3436;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+
+      /* srtart fisrt section */
+
+/* start sescover samsung */
+
+
+.con-des{
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.con-des .discver-galaxsy{
+    width: 68%;
+    margin: 0 auto;
+    height: 600px;
+
+}
+
+
+/* End sescover samsung */
+
+
+
+/* Start Note 8 section*/
+
+
+.sec1ion2{
+    width: 100%;
+    height: 700px;
+    margin: 20px 0;
+}
+
+.sec1ion2 .full-con{
+    width: 70%;
+    height: 100%;
+    margin:  0 auto;
+}
+
+.sec1ion2 .full-con .conta2{
+
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 2px;
+
+}
+
+.sec1ion2 .full-con .conta2 .conta-div1 p {
+    font-family: 'samsung';
+    font-size: 66px;
+    padding-top: 100px;
+    margin-bottom: 0;
+
+}
+
+
+.sec1ion2 .full-con .conta2 .conta-div1 h4{
+    font-size: 20px;
+    font-family: 'Samsung-reg';
+    font-weight: 400;
+}
+
+.sec1ion2 .full-con .conta2 .conta-div2{
+
+    background-image: url("../img/note8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
+.sec1ion2 .full-con .conta2 a{
+    padding: 12px 25px 7px 25px;
+background: white;
+border: 1px solid black;
+border-radius: 20px;
+color: #000;
+text-decoration: none;
+font-family: 'compny';
+transition: 0.4s;
+}
+
+.sec1ion2 .full-con .conta2 a:hover{
+
+    background-color: #2d3436;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+/* End Note 8 section*/
+
+
+/* Start Show Phone */
+
+
+.show-phone{
+    width: 100%;
+    border-top: 1px solid #b3a8a8;
+    overflow: hidden;
+}
+
+
+
+.show-phone .conta2{
+width: 70%;
+height: 100%;
+margin:  0 auto;
+}
+
+.show-phone .conta2 .conta-grid{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 2px;
+    height: 100%;
+    justify-self: center;
+    margin: 20px 0;
+
+}
+
+.show-phone .conta2 .conta-grid div{
+   justify-self: center;
+
+
+}
+
+
+.show-phone .conta2 .conta-grid div p {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+    background: #34495e;
+    color: #fff;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    padding: 20px 0px 12px 0;;
+    font-family: 'Samsung-reg';
+}
+
+
+.show-phone .conta2 .conta-grid div img{
+    width: 50%;
+    height: 250px;
+    margin-left: 26%;
+    margin-bottom: 15px;
+    transition: .7s;
+
+}
+
+.show-phone .conta2 .conta-grid div img:hover{
+transform: scale(1.1,1.1);
+transition: .7s;
+cursor: pointer;
+
+
+}
+
+.show-phone .conta2 .conta-grid div a{
+    text-align: center;
+    display: inline-block;
+    padding: 8px 5px 3px 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'compny';
+    transition: 0.4s;
+    width: 20%;
+    margin: 10px -40px 10px 75px;
+}
+
+
+.show-phone .conta2 .conta-grid div a:hover{
+   background-color: #2d3436;
+color: #fff;
+transition: 0.4s;
+
+}
+
+
+
+
+/* End Show Phone */
+
+
+
+.dis h1{
+     text-align: center;
+    font-size: 32px;
+    font-family: 'Samsung';
+    color: #ecf0f1;
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 2px solid;
+    padding-top: 30px;
+}
+
+
+/* Start infomation section */
+
+.info-section{
+    width: 100%;
+    height: 600px;
+    background: #2980b9;
+    overflow: hidden;
+}
+
+.info-section .contant-info{
+    width: 70%;
+    background: #2980b9;
+    margin: 0 auto;
+    height: 100%;
+    box-shadow: 0px 0px 3px 3.1px #48a6e4;
+    border-radius: 100px;
+
+}
+
+.info-section .contant-info .conta-info1{
+
+text-align: center;
+
+
+}
+
+.info-section .contant-info  .conta-info1 p{
+    font-size: 70px;
+    font-family: 'samsung';
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #ecf0f1;
+    padding-top: 100px;
+}
+
+.info-section .contant-info  .conta-info1 h2{
+    color: #ecf0f1;
+    font-family: 'samsung';
+    font-size: 25px;
+}
+
+.info-section .contant-info  .conta-info1 h3{
+
+    color: #FFF;
+    font-family: 'samsung';
+}
+
+.info-section .contant-info  .conta-info1 h3 a{
+    color: #dff9fb;
+    text-decoration: none;
+      font-family: 'samsung-reg';
+
+}
+
+.info-section .contant-info  .conta-info1 h3 a:hover{
+    text-decoration: underline;
+    color: #87c2e9;
+
+}
+
+/* End infomation section */
+
+
+
+/* Start Contact Section */
+
+
+.con-contact{
+    width: 100%;
+    height: 600px;
+}
+
+.con-contact .container-conta{
+
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    background: white;
+
+}
+
+
+.con-contact .container-conta h1{
+    font-size: 60px;
+    font-family: 'samsung';
+    padding-left: 70px;
+}
+
+
+
+.con-contact .container-conta form {
+
+    text-align: center;
+}
+
+.con-contact .container-conta  form input{
+    margin-right: 20px;
+    border: none;
+    border-bottom: 2px solid #ff4b5a69;
+    padding: 20px;
+    width: 30%;
+    font-family: 'samsung';
+}
+
+
+
+.con-contact .container-conta form textarea {
+
+display: block;
+margin: 0 auto;
+max-width: 67%;
+min-width: 67%;
+padding: 10px;
+margin-top: 20px;
+border: none;
+border-bottom: 2px solid #ff4b5a69;
+font-family: 'samsung-reg';
+}
+
+
+.con-contact .container-conta form  .button{
+    display: block;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 10px 40px 5px 40px;
+    background: #ff4b5a;
+    border-radius: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-family: 'samsung';
+    transition: 0.4s;
+    border: none;
+    box-shadow: -12px 20px 60px -12px red;
+    font-size: 20px;
+    width: 10%;
+}
+
+.con-contact .container-conta form  .button:hover{
+    cursor: pointer;
+}
+
+
+/* End Contact Section */
+
+
+/* Start Footer */
+
+
+.footer{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left; 
+	padding: 50px 60px 40px; 
+	overflow: hidden;
+}
+ 
+
+.footer .footer-left{
+	float: left;
+}
+
+ 
+
+.footer h3{
+	color:  #ffffff;
+    font-size: 35px;
+    margin: 0 0 10px;
+    padding-bottom: 20px
+}
+
+.footer h3 span{
+	color:  #5383d3;
+}
+
+ 
+
+.footer- .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer .footer-links a{
+    display: inline-block;
+    text-decoration: none;
+    color: #eeeeeecc;
+    transition: .2s;
+}
+
+.footer .footer-links a:hover{
+    color: #5383d3ad;
+    transition: .2s;
+}
+
+.footer .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer .footer-icons{
+	margin-top: 40px;
+}
+
+.footer .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 17px;
+    color: #dcdde1;
+    text-align: center;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    transition: .3s;
+}
+
+.footer .footer-icons a:hover{
+    color: rgb(83, 131, 211);
+    transition: .3s;
+}
+
+
+.footer .center-footer{
+    margin: 0 auto;
+    text-align: center;
+    width: 46%;
+    display: inline-block;
+}
+
+.footer .center-footer p{
+    font-size: 30px;
+    color: #eee;
+    padding-top: 40px;
+}
+
+
+.footer .footer-right{
+	float: right;
+}
+
+.footer .footer-right p{
+    display: block;
+    margin: 0px 42px 20px 0;
+    color: #ffffff;
+}
+
+
+.footer form{
+	display: inline-block;
+}
+
+.footer form input,
+.footer form textarea{
+	display: block;
+	border-radius: 3px;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	font: inherit;
+	font-size: 14px;
+	color:  #d1d2d2;
+	width: 400px;
+	padding: 7px;
+}
+
+
+.footer form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer form textarea{
+	height: 150px;
+    margin-bottom: 20px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 150px;
+}
+
+.footer form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* start pay-form */
+
+
+.pay-form {
+    width: 40%;
+    height: 500px;
+    background: #95a5a6;
+    margin-top: 40px;
+    left: 30%;
+    right: 30%;
+    display: block;
+    z-index: 999999;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+}
+
+
+.pay-form p{
+    margin-bottom: 5px;
+} 
+
+
+.pay-form i {
+    color: #ff383e;
+    float: right;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.pay-form i:hover{
+    cursor: pointer;
+}
+
+
+
+.pay-form > p{
+    text-align: center;
+    background: #0d1e28;
+    padding: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 0px 0px 0px ;
+
+}
+
+.form-contain .img-visa{
+    width: 200px;
+    min-height:50px;
+    background-image:url("../image/visa-mastercard-paypal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+
+.form-contain{
+    margin: 5px auto;
+    width: 80%;
+    box-shadow:  0px 6px 15px 0px #353b48 ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background: #2c3e50;
+    border-radius: 5px;
+}
+
+
+.form-contain form input{
+    border: none;
+    box-shadow: 0px 0px 2px 1px #000;
+    box-shadow: 0px 0px 5px 0px #353b48;
+    background: #fff;
+    color: #000;
+    width: 70%;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 1px 0px;
+}
+
+
+.form-contain form input:focus{
+box-shadow: 0px 0px 10px 0px #757575;
+}
+
+
+.form-contain form button{
+    display: block;
+    background-color: #ff383e;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 15px 12px 15px;
+    margin: 5% 10px;
+    transition: .2s ease;
+
+}
+
+.form-contain form button:hover{
+    color: #fff;
+    background-color: #0d1e28;
+    cursor: pointer;
+}
+/* End pay-form */
