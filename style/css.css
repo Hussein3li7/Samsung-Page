@@ -364,7 +364,7 @@ transition: 0.4s;
 
 .info-section{
     width: 100%;
- 
+    min-height: 600px;
     background: #2980b9;
     overflow: hidden;
 }
